@@ -2,12 +2,12 @@
 import { SiteConfig } from "./types";
 
 export const siteConfig: SiteConfig = {
-  title: "Subrata Das — React Native & Android Engineer",
+  title: "Subrata Das — Tech Lead Modern Hybrid Apps",
   owner: "Subrata Kumar Das",
   avatar:
     "https://media.licdn.com/dms/image/v2/D4D03AQEj9P4ZkuqH0w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1674452508308?e=1756944000&v=beta&t=MYEdDCy4Zx_tiVjfhdrfdIKT9bA62uvx0kW2_tn1Gvk",
   tagline:
-    "Seasoned React Native & Android developer | 10+ years | 40+ Android & 5+ iOS apps delivered | Tech Lead & mentor.",
+    "Seasoned React Native developer | 10+ years | 40+ Android & 5+ iOS apps delivered | Tech Lead & mentor.",
   bio: [
     "Tech Lead with a decade of experience building scalable, performant mobile apps with modern UI/UX.",
     "Shipped 40+ Android and 5+ iOS apps across enterprise and consumer use cases.",
@@ -16,14 +16,14 @@ export const siteConfig: SiteConfig = {
   hero: {
     headline: "Hi, I'm Subrata!",
     subheadline:
-      "React Native & Android Tech Lead. 10+ years. 40+ Android & 5+ iOS apps delivered.",
+      "Tech Lead Modern Hybrid Apps. 10+ years. 40+ Android & 5+ iOS apps delivered.",
   },
   projects: [
     {
       title: "E-Commerce App (1M+ users)",
       description:
-        "High-traffic consumer app with performance tuning and scalable component architecture; shipped to Google Play.",
-      tech: ["React Native", "Redux", "Android"],
+        "High-traffic consumer app with performance tuning and scalable component architecture; shipped to Google Play & App store.",
+      tech: ["React Native", "TypeScript", "Redux", "Android"],
       highlights: [
         "1M+ users on Play Store",
         "Performance optimizations",
@@ -40,7 +40,8 @@ export const siteConfig: SiteConfig = {
         "Barcode-driven picking/packing flows improving speed and accuracy in warehouse operations.",
       tech: ["Android", "Kotlin", "Java", "Retrofit", "Firebase"],
       highlights: ["~15% error reduction", "~30% faster fulfillment"],
-      image: "/images/projects/wms.jpg",
+      image:
+        "https://cdn.pixabay.com/photo/2025/07/17/14/14/sparrow-9719599_1280.jpg",
       featured: true,
     },
     {
@@ -49,7 +50,8 @@ export const siteConfig: SiteConfig = {
         "From-scratch rugged handheld app with native printer & scanner integrations for field operations.",
       tech: ["React Native", "Expo", "Native Modules", "REST"],
       highlights: ["Robust device integrations", "Offline-friendly flows"],
-      image: "/images/projects/pda.jpg",
+      image:
+        "https://cdn.pixabay.com/photo/2025/07/17/14/14/sparrow-9719599_1280.jpg",
     },
     {
       title: "Employee Management (Enterprise)",
@@ -57,7 +59,8 @@ export const siteConfig: SiteConfig = {
         "Attendance, holidays, and HR workflows for a large Indian insurer (enterprise distribution).",
       tech: ["React Native", "Redux", "React Navigation", "Android", "iOS"],
       live: "ADD_PRIVATE_LINK_IF_ALLOWED",
-      image: "/images/projects/employee.jpg",
+      image:
+        "https://cdn.pixabay.com/photo/2025/07/17/14/14/sparrow-9719599_1280.jpg",
     },
     {
       title: "Insurance Policy Management + POS",
@@ -65,7 +68,8 @@ export const siteConfig: SiteConfig = {
         "Policy workflows with native EzeTap POS, Face Authentication, and Location services.",
       tech: ["React Native", "Native Modules", "Razorpay/EzeTap", "Face Auth"],
       highlights: ["Native bridge for POS", "Secure auth & location"],
-      image: "/images/projects/insurance.jpg",
+      image:
+        "https://cdn.pixabay.com/photo/2025/07/17/14/14/sparrow-9719599_1280.jpg",
     },
     {
       title: "Skin Theory — Skincare Tracker",
@@ -73,7 +77,8 @@ export const siteConfig: SiteConfig = {
         "‘The Scientific Acne & Skincare Tracker’ app for a Berlin startup; core features and performance.",
       tech: ["React Native", "MobX", "Location API", "SSO", "iOS"],
       live: "ADD_APP_STORE_OR_SITE_LINK",
-      image: "/images/projects/skintheory.jpg",
+      image:
+        "https://cdn.pixabay.com/photo/2025/07/17/14/14/sparrow-9719599_1280.jpg",
       featured: true,
     },
     {
@@ -83,7 +88,8 @@ export const siteConfig: SiteConfig = {
       tech: ["Node.js", "WebSockets", "MongoDB", "JWT", "React Native"],
       highlights: ["Dynamic DB per user/key", "REST + WS hybrid"],
       github: "ADD_REPO_LINK_IF_PUBLIC",
-      image: "/images/projects/chat.jpg",
+      image:
+        "https://cdn.pixabay.com/photo/2025/07/17/14/14/sparrow-9719599_1280.jpg",
     },
     {
       title: "Admin Middleman Platform",
@@ -91,7 +97,8 @@ export const siteConfig: SiteConfig = {
         "Admin layer connecting patients, labs, and doctors—appointments, coordination, and status tracking.",
       tech: ["React Native", "Redux", "REST APIs"],
       highlights: ["Config-driven flows", "Reusable UI primitives"],
-      image: "/images/projects/admin.jpg",
+      image:
+        "https://cdn.pixabay.com/photo/2025/07/17/14/14/sparrow-9719599_1280.jpg",
     },
     {
       title: "Face Authentication Prototype",
@@ -100,21 +107,24 @@ export const siteConfig: SiteConfig = {
       tech: ["TensorFlow.js", "face-api.js", "Web"],
       github: "ADD_REPO_LINK",
       live: "ADD_DEMO_LINK",
-      image: "/images/projects/faceauth.jpg",
+      image:
+        "https://cdn.pixabay.com/photo/2025/07/17/14/14/sparrow-9719599_1280.jpg",
     },
     {
       title: "MapView Premium Collection Aid",
       description:
         "Google Maps integration to locate nearest addresses for doorstep premium collection.",
       tech: ["React Native", "Google Maps"],
-      image: "/images/projects/mapview.jpg",
+      image:
+        "https://cdn.pixabay.com/photo/2025/07/17/14/14/sparrow-9719599_1280.jpg",
     },
     {
       title: "She Health — Period Tracker (Prototype)",
       description:
         "Concept/prototype of a women’s health tracker with clean UI and extensible data model.",
       tech: ["React Native"],
-      image: "/images/projects/she_health_logo.webp",
+      image:
+        "https://cdn.pixabay.com/photo/2025/07/17/14/14/sparrow-9719599_1280.jpg",
     },
   ],
   experience: [
@@ -275,7 +285,7 @@ export const siteConfig: SiteConfig = {
     },
   ],
   contact: {
-    email: "enhanceme.in@gmail.com",
+    email: "subraatakumar@gmail.com",
     phone: "+91 9999999999",
     location: "Bengaluru (Remote)",
   },
@@ -292,8 +302,8 @@ export const siteConfig: SiteConfig = {
       { name: "Contact", href: "#contact" },
     ],
     external: [
-      { name: "GitHub", url: "ADD_GITHUB_URL" },
-      { name: "LinkedIn", url: "ADD_LINKEDIN_URL" },
+      { name: "GitHub", url: "https://github.com/subraatakumar" },
+      { name: "LinkedIn", url: "https://www.linkedin.com/in/subraatakumar/" },
     ],
   },
   footer: {
