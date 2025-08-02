@@ -290,9 +290,9 @@ export const siteConfig: SiteConfig = {
     location: "Bengaluru (Remote)",
   },
   socials: [
-    { name: "GitHub", url: "ADD_GITHUB_URL" },
-    { name: "LinkedIn", url: "ADD_LINKEDIN_URL" },
-    { name: "X", url: "https://x.com/ADD_HANDLE" },
+    { name: "GitHub", url: "https://github.com/subraatakumar" },
+    { name: "LinkedIn", url: "https://www.linkedin.com/in/subraatakumar/" },
+    { name: "X", url: "https://x.com/subraatakumar" },
   ],
   nav: {
     internal: [
@@ -309,8 +309,9 @@ export const siteConfig: SiteConfig = {
   footer: {
     copyright: "© 2025 Subrata Kumar Das",
     links: [
-      { name: "GitHub", url: "ADD_GITHUB_URL" },
-      { name: "LinkedIn", url: "ADD_LINKEDIN_URL" },
+      { name: "GitHub", url: "https://github.com/subraatakumar" },
+      { name: "LinkedIn", url: "https://www.linkedin.com/in/subraatakumar/" },
+      { name: "X", url: "https://x.com/subraatakumar" },
     ],
   },
   options: {
