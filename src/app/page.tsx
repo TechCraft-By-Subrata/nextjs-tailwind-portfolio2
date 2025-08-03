@@ -1,4 +1,4 @@
-import { siteConfig } from "@/content/site";
+import { siteConfig } from "@/content";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Section from "@/components/Section";

@@ -1,0 +1,2 @@
+// This file was moved from the project root to src/content/
+// All imports should now use 'src/content/site' or 'src/content' (with index.ts)

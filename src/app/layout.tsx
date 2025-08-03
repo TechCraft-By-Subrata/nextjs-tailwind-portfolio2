@@ -1,5 +1,5 @@
 import "./globals.css";
-import { siteConfig } from "@/content/site";
+import { siteConfig } from "@/content";
 
 export const metadata = {
   title: siteConfig.options?.seo?.title || siteConfig.title,

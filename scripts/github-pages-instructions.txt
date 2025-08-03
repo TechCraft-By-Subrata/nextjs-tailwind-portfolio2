@@ -1,0 +1,12 @@
+// Add or update the following scripts in your package.json:
+// "export": "next build && next export",
+// "deploy": "gh-pages -d out"
+//
+// Install gh-pages if not already installed:
+// npm install --save-dev gh-pages
+//
+// Usage:
+// npm run export
+// npm run deploy
+//
+// This will publish the static site to the gh-pages branch for GitHub Pages hosting.
